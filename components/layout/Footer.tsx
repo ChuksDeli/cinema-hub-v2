@@ -31,11 +31,11 @@ export default function Footer() {
             <div>
               <p className="text-text-secondary text-xs font-medium tracking-widest uppercase mb-3">Platforms</p>
               <div className="flex flex-col gap-2">
-                <span className="text-text-muted text-sm">Netflix</span>
-                <span className="text-text-muted text-sm">Prime Video</span>
-                <span className="text-text-muted text-sm">Disney+</span>
-                <span className="text-text-muted text-sm">Crunchyroll</span>
-              </div>
+  <a href="https://www.netflix.com" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-text-primary text-sm transition-colors">Netflix</a>
+  <a href="https://www.amazon.com/prime-video" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-text-primary text-sm transition-colors">Prime Video</a>
+  <a href="https://www.disneyplus.com" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-text-primary text-sm transition-colors">Disney+</a>
+  <a href="https://www.crunchyroll.com" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-text-primary text-sm transition-colors">Crunchyroll</a>
+</div>
             </div>
           </div>
         </div>
